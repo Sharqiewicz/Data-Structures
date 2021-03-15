@@ -1,5 +1,6 @@
 # sets #
-# it is not structurized
+#  - it is unordered
+#  - store non duplicate values
 
 a = set([1,2,3])
 b = { 7,2,5 }
@@ -10,6 +11,10 @@ print(a,b,c)
 a.add(4) # .add instead of .append
 
 a.pop() # pop a random item
+
+a.discard(2) # remove an element from a set if it is a member
+
+3 in a # check membership
 
 # on set, the mathematical operations are better
 
